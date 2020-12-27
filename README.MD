@@ -17,13 +17,14 @@ correspondant à son nom.
 ## Types de variables
 ![image contenant plusieurs types de variable java](http://www.write-technical.com/126581/session2/index.6.gif)
 
-## Création de variable
+## Création de variables
 
 Une variable est une boite dans laquelle une/des information(s) vont ci trouver.
 Pour déclarer une variable : 
 
 		public static void main(String[] args) {
-		
+			
+			String name = "myName";
 			byte byte = 127;
 			short short = 32767;
 			int int = 2147483647;
