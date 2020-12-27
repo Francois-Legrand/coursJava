@@ -23,16 +23,16 @@ Une variable est une boite dans laquelle une/des information(s) vont ci trouver.
 Pour déclarer une variable : 
 	public class Main {
 
-	public static void main(String[] args) {
+		public static void main(String[] args) {
 		
-		byte byte = 127;
-		short short = 32767;
-		int int = 2147483647;
-		double = 1.2;
+			byte byte = 127;
+			short short = 32767;
+			int int = 2147483647;
+			double = 1.2;
+			
+			//ect
 		
-		//ect
 		
-		
-	}
+		}
 
-}
+	}
