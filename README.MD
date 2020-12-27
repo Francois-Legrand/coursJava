@@ -21,7 +21,6 @@ correspondant à son nom.
 
 Une variable est une boite dans laquelle une/des information(s) vont ci trouver.
 Pour déclarer une variable : 
-	public class Main {
 
 		public static void main(String[] args) {
 		
@@ -34,5 +33,3 @@ Pour déclarer une variable :
 		
 		
 		}
-
-	}
