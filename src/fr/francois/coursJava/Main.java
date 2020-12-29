@@ -10,19 +10,19 @@ public class Main {
 		
 		System.out.println("entrez une nouvelle tache");
 		
-		String titl = in.nextLine();
+		String title = in.nextLine();
 		
 		System.out.println("Description de la tache");
 		
-		String desc = in.nextLine();
+		String description = in.nextLine();
 		
 		in.close();
 		
-		Task tache1 = new Task(titl, desc);
+		Task tache1 = new Task(title, description);
 		
 		tache1.complete();
 		
-		System.out.printf("ma premiere tache est de %s qui consite a %s", titl, desc);
+		System.out.printf("ma premiere tache est de %s qui consite a %s", title, description);
 		
 	}
 

@@ -7,9 +7,9 @@ public class Task {
 	public boolean completed = false;
 	
 	// Task contructor
-	public Task(String desc, String titl) {
-		description = desc;
-		title = titl;
+	public Task(String description, String title) {
+		this.description = description;
+		this.title = title;
 	}
 	public void complete() {
 		completed = true;
