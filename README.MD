@@ -59,3 +59,40 @@ La signification de l'encapsulation est de s'assurer que les données sensibles 
 - fournir des méthodes publiques get et set pour accéder et mettre à jour la valeur d'une private variable
 
 Les getters et les setters servent aux utilisateurs d'interface de programmation afin qu'il puisse profiter des fonctionnalités lié à l'application sans mettre en danger l'intégrité des données et/ou un eventuel processus de fonctionnalités (calcul,algoritmie).
+
+		public String getName() {
+				
+				return name;
+			}
+		
+			public void setName(String name) {
+				
+				this.name = name;
+			}
+		
+			public int getYear() {
+				
+				return dateCourte - year;
+			}
+		
+			public void setYear(int year) {
+				
+				if (year < 1) {
+					
+					this.year = year;
+					
+					System.out.println("Vous ne pouvez pas faire cela");
+					
+					
+				}else if (year >= 1 && year < 18) {
+					
+					System.out.println("Vous avez "+year+" ans, l'accès est donc interdit");
+					
+				}else {
+					
+					System.out.println("Vous avez "+year+" ans, vous avez accès au site");
+					
+					this.year = year;
+				}
+				
+			}
