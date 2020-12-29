@@ -1,10 +1,29 @@
 package fr.francois.coursJava;
 
+import java.util.Scanner;
+
 public class Main {
 
 	public static void main(String[] args) {
-		// System.out.println est une fonction permettant d'envoyer des messages dans la console, les caractère ln signifie la possibilité d'envoyer des sauts de ligne.
-		System.out.println("helloworld");
+		
+		Scanner in = new Scanner(System.in);
+		
+		System.out.println("entrez une nouvelle tache");
+		
+		String titl = in.nextLine();
+		
+		System.out.println("Description de la tache");
+		
+		String desc = in.nextLine();
+		
+		in.close();
+		
+		Task tache1 = new Task(titl, desc);
+		
+		tache1.complete();
+		
+		System.out.printf("ma premiere tache est de %s qui consite a %s", titl, desc);
+		
 	}
 
 }
