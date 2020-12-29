@@ -52,4 +52,10 @@ Ainsi, le constructeur d'un objet porte le même nom que la classe et ne possèd
 - un constructeur peut avoir des arguments
 - la définition d'un constructeur n'est pas obligatoire lorsqu'il n'est pas nécessaire
 
+## Notion d'encapsulation avec la création de getters et de setters
+La signification de l'encapsulation est de s'assurer que les données sensibles sont cachées aux utilisateurs. Pour y parvenir, vous devez:
 
+- déclarer les variables / attributs de classe comme private
+- fournir des méthodes publiques get et set pour accéder et mettre à jour la valeur d'une private variable
+
+Les getters et les setters servent aux utilisateurs d'interface de programmation afin qu'il puisse profiter des fonctionnalités lié à l'application sans mettre en danger l'intégrité des données et/ou un eventuel processus de fonctionnalités (calcul,algoritmie).

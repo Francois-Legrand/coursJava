@@ -8,6 +8,7 @@ public class Task {
 	
 	// Task contructor
 	public Task(String description, String title) {
+		// this correspond à l'objet courant ex: tache1...etc
 		this.description = description;
 		this.title = title;
 	}
