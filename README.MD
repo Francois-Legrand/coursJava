@@ -96,7 +96,7 @@ Les getters et les setters servent aux utilisateurs d'interface de programmation
 				}
 				
 			}
-## Notion des modificateurs d'accès (friendly, public, protected, pivate) 
+## Notion des modificateurs d'accès (friendly, public, protected, private) 
 
 Quand vous définissez des membres dans une classe, vous avez le choix parmi quatre niveaux de visibilité. Trois de ces niveaux (public, protected et private) sont associés à des mots clés. Le quatrième niveau s'obtient en ne spécifiant aucune mot clé relatif à la visibilité. Et oui, contrairement, à ce que beaucoup de monde pense, ne rien préciser ne veut pas dire qu'on a un accès public.
 
