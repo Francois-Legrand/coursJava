@@ -109,3 +109,10 @@ Quand vous définissez des membres dans une classe, vous avez le choix parmi qua
 - Un membre marqué dans une classe comme étant protégé (mot clé protected) peut être manipulé : Dans la classe qui définit ce membre,
 Dans les classes qui dérivent de la classe considérée,
 Et dans toutes les classes (et les types) définies dans le même package que celle qui définit le membre protégé.
+
+### La visibilité friendly ou package private
+
+- En l'absence de mot clé pour spécifier la visibilité, un membre sera considéré comme étant package private (on peut simplifier en parlant de visibilité package). C'est donc le mode de visibilité par défaut (absence de mot clé). Cela veut dire que le membre sera accessible par tout code Java localisé dans le même package.
+
+### La visibilité private
+- Dans ce dernier cas, seule la classe ayant définit le membre pourra y accéder.

@@ -7,5 +7,7 @@ public class InTheSameFolder {
 		Visibility a = new Visibility();
 		
 		a.visibleOnlyInTheSameFolder();
+		
+		a.friendlyVisible();
 	}
 }
