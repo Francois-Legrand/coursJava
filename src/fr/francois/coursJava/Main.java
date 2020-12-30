@@ -1,6 +1,8 @@
 package fr.francois.coursJava;
 
-//import java.util.Scanner;
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
 
 import fr.francois.visibility.*;
 
@@ -31,22 +33,22 @@ public class Main {
 		
 		//System.out.println("entrez votre nom");
 		
-		//String name = in.nextLine();
+		String name = JOptionPane.showInputDialog("Quel est ton nom ?");
 		
 		//System.out.println("entrez votre age");
 		
-		//int year = in.nextInt();
+		int year = Integer.parseInt(JOptionPane.showInputDialog("Quel est ton age ?"));
 		
 		//in.close();
 		
-		//People people1 = new People(name, year);
+		People people1 = new People(name, year);
 		
 		
-		//people1.setName(name);
+		people1.setName(name);
 		
-		//people1.setYear(year);
+		people1.setYear(year);
 		
-		//System.out.println("Lannée de naissance de "+people1.getName()+" est "+people1.getYear());
+		System.out.println("Lannée de naissance de "+people1.getName()+" est "+people1.getYear());
 		
 		Visibility a = new Visibility();
 		//En friendly tous les attribus et méthodes d'une classe sont accessibles uniquement dans le même dossier et via des classes enfants tous les attribus et méthodes d'une classe sont accessibles uniquement dans le même dossier et via des classes enfants 
