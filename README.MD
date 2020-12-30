@@ -100,11 +100,11 @@ Les getters et les setters servent aux utilisateurs d'interface de programmation
 
 Quand vous définissez des membres dans une classe, vous avez le choix parmi quatre niveaux de visibilité. Trois de ces niveaux (public, protected et private) sont associés à des mots clés. Le quatrième niveau s'obtient en ne spécifiant aucune mot clé relatif à la visibilité. Et oui, contrairement, à ce que beaucoup de monde pense, ne rien préciser ne veut pas dire qu'on a un accès public.
 
-	### La visibilité public
+### La visibilité public
 	
 	- Si vous définissez un membre (attribut, méthode...) public il sera alors accessible de n'importe ou dans le programme, dans n'importe quelle classe et dans n'importe quel dossier d'une classe.
 	
-	### La visibilité protected
+### La visibilité protected
 	- Un membre marqué dans une classe comme étant protégé (mot clé protected) peut être manipulé : Dans la classe qui définit ce membre,
 Dans les classes qui dérivent de la classe considérée,
 Et dans toutes les classes (et les types) définies dans le même package que celle qui définit le membre protégé.
