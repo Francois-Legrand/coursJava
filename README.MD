@@ -31,10 +31,13 @@ correspondant à son nom.
 ## Types de variables
 ![image contenant plusieurs types de variable java](http://www.write-technical.com/126581/session2/index.6.gif)
 
-## Création de variables primitives et de classe
+## Création de variables primitives et de réference
 
 Une variable est une boite dans laquelle une/des information(s) vont ci trouver (définition simpliste [méthode Feynman]).
-Les déclarations primitives de variables ne commencent pas par une majuscule et ne font pas réference à une classe tandis que les variables de classe commencent toutes par une majuscules faisant donc réference à une classe.
+Les déclarations primitives de variables ne commencent pas par une majuscule et ne font pas réference à une classe tandis que les variables de réference commencent toutes par une majuscules faisant donc réference à une classe.
+
+- Une variable primitive contient des bits qui représentent sa valeur.  Exemple : int, foat , boolean.
+- Une variable référence contient des bits qui indiquent comment  accéder à l'objet. Exemple : String, Chien, Joueur,...
 
 			String name = "Je fais réference à une classe";
 			byte byte = 127;
