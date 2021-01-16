@@ -1,27 +1,30 @@
 # Un Cours de java
-## Création d'un package
+## CrÃ©ation d'un package
 
-Un package est un dossier dans lequel des classes et du code ci trouvera.
+Un package est un dossier dans lequel des classes et du code ci trouveront.
+Les préconisations de nommage minimum sont:
+- La premier partie commence par la langue de l'entreprise qui développe l'application suivi du point.
+- La deuxième partie sera le nom de l'entreprise suivi d'un point.
+- La troisième partie sera le nom du projet.
+## CrÃ©ation d'une classe
+- Une classe represente un ensemble dâ€™objets ayant la mÃªme reprÃ©sentation mÃ©moire (structure) et les mÃªmes comportements,
+- dÃ©finissant cette structure
+- dÃ©finissant et dÃ©tenant ces comportements
+- capable de gÃ©nÃ©rer des instances.
 
-## Création d'une classe
-- Une classe represente un ensemble d’objets ayant la même représentation mémoire (structure) et les mêmes comportements,
-- définissant cette structure
-- définissant et détenant ces comportements
-- capable de générer des instances.
+## CrÃ©ation de la mÃ©thode main
 
-## Création de la méthode main
-
-Une méthode est une fonction ou procédure nommée, la méthode main se lance en premier. Une méthode est définie au sein d’une classe et définissant une propriété fonctionnelle
-des instances de la classe. Elle d'écrit comment une instance de cette classe va réagir à la réception du message
-correspondant à son nom.
+Une mÃ©thode est une fonction ou procÃ©dure nommÃ©e, la mÃ©thode main se lance en premier. Une mÃ©thode est dÃ©finie au sein dâ€™une classe et dÃ©finissant une propriÃ©tÃ© fonctionnelle
+des instances de la classe. Elle d'Ã©crit comment une instance de cette classe va rÃ©agir Ã  la rÃ©ception du message
+correspondant Ã  son nom.
 
 ## Types de variables
 ![image contenant plusieurs types de variable java](http://www.write-technical.com/126581/session2/index.6.gif)
 
-## Création de variables
+## CrÃ©ation de variables
 
 Une variable est une boite dans laquelle une/des information(s) vont ci trouver.
-Pour déclarer une variable : 
+Pour dÃ©clarer une variable : 
 
 		public static void main(String[] args) {
 			
@@ -36,29 +39,29 @@ Pour déclarer une variable :
 		
 		}
 
-## Création d'un constructeur
+## CrÃ©ation d'un constructeur
 
-Pour instancier une classe, c'est-à-dire créer un objet à partir d'une classe, il s'agit d'utiliser l'opérateur new.
-En réalité l'opérateur new, lorsqu'il est utilisé, fait appel à une méthode spéciale de la classe: le constructeur.
+Pour instancier une classe, c'est-Ã -dire crÃ©er un objet Ã  partir d'une classe, il s'agit d'utiliser l'opÃ©rateur new.
+En rÃ©alitÃ© l'opÃ©rateur new, lorsqu'il est utilisÃ©, fait appel Ã  une mÃ©thode spÃ©ciale de la classe: le constructeur.
 
-Le rôle du constructeur est de déclarer et de permettre d'initialiser les données membres de la classe, ainsi que de permettre différentes actions (définies par le concepteur de la classe) lors de l'instanciation.
+Le rÃ´le du constructeur est de dÃ©clarer et de permettre d'initialiser les donnÃ©es membres de la classe, ainsi que de permettre diffÃ©rentes actions (dÃ©finies par le concepteur de la classe) lors de l'instanciation.
 
-Un constructeur se définit comme une méthode standard, mais ne renvoie aucune valeur.
-Ainsi, le constructeur d'un objet porte le même nom que la classe et ne possède aucune valeur de retour (même pas void).
+Un constructeur se dÃ©finit comme une mÃ©thode standard, mais ne renvoie aucune valeur.
+Ainsi, le constructeur d'un objet porte le mÃªme nom que la classe et ne possÃ¨de aucune valeur de retour (mÃªme pas void).
 
 	
-- un constructeur porte le même nom que la classe dans laquelle il est défini
-- un constructeur n'a pas de type de retour (même pas void)
+- un constructeur porte le mÃªme nom que la classe dans laquelle il est dÃ©fini
+- un constructeur n'a pas de type de retour (mÃªme pas void)
 - un constructeur peut avoir des arguments
-- la définition d'un constructeur n'est pas obligatoire lorsqu'il n'est pas nécessaire
+- la dÃ©finition d'un constructeur n'est pas obligatoire lorsqu'il n'est pas nÃ©cessaire
 
-## Notion d'encapsulation avec la création de getters et de setters
-La signification de l'encapsulation est de s'assurer que les données sensibles sont cachées aux utilisateurs. Pour y parvenir, vous devez:
+## Notion d'encapsulation avec la crÃ©ation de getters et de setters
+La signification de l'encapsulation est de s'assurer que les donnÃ©es sensibles sont cachÃ©es aux utilisateurs. Pour y parvenir, vous devez:
 
-- déclarer les variables / attributs de classe comme private
-- fournir des méthodes publiques get et set pour accéder et mettre à jour la valeur d'une private variable
+- dÃ©clarer les variables / attributs de classe comme private
+- fournir des mÃ©thodes publiques get et set pour accÃ©der et mettre Ã  jour la valeur d'une private variable
 
-Les getters et les setters servent aux utilisateurs d'interface de programmation afin qu'il puisse profiter des fonctionnalités lié à l'application sans mettre en danger l'intégrité des données et/ou un eventuel processus de fonctionnalités (calcul,algoritmie).
+Les getters et les setters servent aux utilisateurs d'interface de programmation afin qu'il puisse profiter des fonctionnalitÃ©s liÃ© Ã  l'application sans mettre en danger l'intÃ©gritÃ© des donnÃ©es et/ou un eventuel processus de fonctionnalitÃ©s (calcul,algoritmie).
 
 		public String getName() {
 				
@@ -86,33 +89,33 @@ Les getters et les setters servent aux utilisateurs d'interface de programmation
 					
 				}else if (year >= 1 && year < 18) {
 					
-					System.out.println("Vous avez "+year+" ans, l'accès est donc interdit");
+					System.out.println("Vous avez "+year+" ans, l'accÃ¨s est donc interdit");
 					
 				}else {
 					
-					System.out.println("Vous avez "+year+" ans, vous avez accès au site");
+					System.out.println("Vous avez "+year+" ans, vous avez accÃ¨s au site");
 					
 					this.year = year;
 				}
 				
 			}
-## Notion des modificateurs d'accès (friendly, public, protected, private) 
+## Notion des modificateurs d'accÃ¨s (friendly, public, protected, private) 
 
-Quand vous définissez des membres dans une classe, vous avez le choix parmi quatre niveaux de visibilité. Trois de ces niveaux (public, protected et private) sont associés à des mots clés. Le quatrième niveau s'obtient en ne spécifiant aucune mot clé relatif à la visibilité. Et oui, contrairement, à ce que beaucoup de monde pense, ne rien préciser ne veut pas dire qu'on a un accès public.
+Quand vous dÃ©finissez des membres dans une classe, vous avez le choix parmi quatre niveaux de visibilitÃ©. Trois de ces niveaux (public, protected et private) sont associÃ©s Ã  des mots clÃ©s. Le quatriÃ¨me niveau s'obtient en ne spÃ©cifiant aucune mot clÃ© relatif Ã  la visibilitÃ©. Et oui, contrairement, Ã  ce que beaucoup de monde pense, ne rien prÃ©ciser ne veut pas dire qu'on a un accÃ¨s public.
 
-### La visibilité public
+### La visibilitÃ© public
 	
-- Si vous définissez un membre (attribut, méthode...) public il sera alors accessible de n'importe ou dans le programme, dans n'importe quelle classe et dans n'importe quel dossier d'une classe.
+- Si vous dÃ©finissez un membre (attribut, mÃ©thode...) public il sera alors accessible de n'importe ou dans le programme, dans n'importe quelle classe et dans n'importe quel dossier d'une classe.
 	
-### La visibilité protected
+### La visibilitÃ© protected
 
-- Un membre marqué dans une classe comme étant protégé (mot clé protected) peut être manipulé : Dans la classe qui définit ce membre,
-Dans les classes qui dérivent de la classe considérée,
-Et dans toutes les classes (et les types) définies dans le même package que celle qui définit le membre protégé.
+- Un membre marquÃ© dans une classe comme Ã©tant protÃ©gÃ© (mot clÃ© protected) peut Ãªtre manipulÃ© : Dans la classe qui dÃ©finit ce membre,
+Dans les classes qui dÃ©rivent de la classe considÃ©rÃ©e,
+Et dans toutes les classes (et les types) dÃ©finies dans le mÃªme package que celle qui dÃ©finit le membre protÃ©gÃ©.
 
-### La visibilité friendly ou package private
+### La visibilitÃ© friendly ou package private
 
-- En l'absence de mot clé pour spécifier la visibilité, un membre sera considéré comme étant package private (on peut simplifier en parlant de visibilité package). C'est donc le mode de visibilité par défaut (absence de mot clé). Cela veut dire que le membre sera accessible par tout code Java localisé dans le même package.
+- En l'absence de mot clÃ© pour spÃ©cifier la visibilitÃ©, un membre sera considÃ©rÃ© comme Ã©tant package private (on peut simplifier en parlant de visibilitÃ© package). C'est donc le mode de visibilitÃ© par dÃ©faut (absence de mot clÃ©). Cela veut dire que le membre sera accessible par tout code Java localisÃ© dans le mÃªme package.
 
-### La visibilité private
-- Dans ce dernier cas, seule la classe ayant définit le membre pourra y accéder.
+### La visibilitÃ© private
+- Dans ce dernier cas, seule la classe ayant dÃ©finit le membre pourra y accÃ©der.
