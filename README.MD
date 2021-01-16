@@ -7,7 +7,7 @@ Les préconisations de nommage minimum sont:
 - La deuxième partie sera le nom de l'entreprise suivi d'un point.
 - La troisième partie sera le nom du projet.
 
-## CrÃ©ation d'une classe
+## Création d'une classe
 - Une classe represente un ensemble d'objets ayant la même représentation mémoire (structure) et les mêmes comportements,
 - définissant cette structure
 - définissant et détenant ces comportements
@@ -15,6 +15,12 @@ Les préconisations de nommage minimum sont:
 
 ## Notion d'héritage
 L'héritage permet de créer des classes filles qui reprendront les mêmes attributs et méthodes que cette classe mère. il estpossible de spécialiser ces classes filles en y ajoutant des attributs et/ou méthodes supplémentaires.
+
+## Surcharge de méthode
+Lorsqu'on définit une classe, on peut y définir plusieurs méthodes qui portent le même nom. La seule contrainte est que la liste des types des paramètres formels doit être différente. Ce mécanisme est appelé surcharge de méthode. Il n'y a aucune contrainte sur les différents modificateurs ou sur la valeur de retour et on peut également appliquer la surcharge aux constructeurs.
+
+## Redefinition de méthode
+La redéfinition sont des méthodes de sous classe qui ont les mêmes noms que les méthodes déclarées dans une classe mère. L'appel de super() dans une méthode redéfini fait réference à la méthode de la classe mère est peut être redéfini comme dans l'exemple du contructeur.
 
 ## Création de la méthode main
 
