@@ -1,10 +1,10 @@
 package fr.francois.coursJava.modifiateurDacces;
 
 public class Cars {
-	private int roues = 4; //Je suis disponible uniquement dans la classe voiture
+	private int roues = 4; //Je suis disponible uniquement dans la classe Cars
 	protected int volant = 1; //Je suis disponible uniquement dans les classes et les sous classes du même package
 	public int vitesse = 5; //Je suis disponible partout
-    int carosserie = 1; //Je suis disponible uniquement dans les classes du même package
+    int carosserie = 1; //Je suis disponible uniquement dans le même package
 	private int siege = 5;
 	private double prix = 15000;
 	
@@ -74,9 +74,32 @@ public class Cars {
 		this.prix = prix;
 	}
 	public void demarrer() {
-		System.out.println("Vroom!");
+		System.out.println("Vroom! je suis visible partout!");
+	}
+	void freiner() {
+		System.out.println("Rrrrr! je suis visible  uniquement dans le même package!");
+	}
+	protected void esp() {
+		System.out.println("Vvvvv! je suis visible  uniquement dans les classes et les sous classes du même package!");
 	}
 	
+	private void ouvrirLeToit() {
+		System.out.println("Mmmmm! je suis visible uniquement dans la classe Cars");
+	}
 	
+	public static void main(String[] args) {
+		Cars voiture = new Cars(0, 0, 0, 0, 0);
+		
+		voiture.demarrer();
+		
+		voiture.freiner();
+		
+		voiture.esp();
+		
+		voiture.ouvrirLeToit();
+		
+		
+
+	}
 }
 
