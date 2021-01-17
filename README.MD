@@ -127,4 +127,4 @@ Et dans toutes les classes (et les types) définies dans le même package que ce
 ### La visibilité private
 - Dans ce dernier cas, seule la classe ayant définit le membre pourra y accéder.
 
-##
+## Les attributs static
