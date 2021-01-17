@@ -127,4 +127,29 @@ Et dans toutes les classes (et les types) définies dans le même package que ce
 ### La visibilité private
 - Dans ce dernier cas, seule la classe ayant définit le membre pourra y accéder.
 
-## Les attributs static
+## Le mot clé static
+Pour une variable ou une méthode le mot clé static représente une invoquation sans devoir instancier une classe et est donc partagé par tous les objets instancier de la classe. Une méthode dite static ne dépend pas des valeurs de variables d'une instance.
+Exemple:
+
+		public class People {
+			private String nom;
+			private int age;
+			protected static int nombreDePersonne;
+	
+			public People(String nom, int age) {
+				this.nom = nom;
+				this.age = age;
+				nombreDePersonne++;
+			}
+	
+		}
+		public static void main(String[] args) {
+		
+			People franck = new People("Franck", 40);
+			People tony = new People("Tony", 46);
+			
+			System.out.println(People.nombreDePersonne);
+		
+
+		}
+
