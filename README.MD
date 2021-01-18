@@ -20,7 +20,7 @@ L'héritage permet de créer des classes filles qui reprendront les mêmes attri
 Lorsqu'on définit une classe, on peut y définir plusieurs méthodes qui portent le même nom. La seule contrainte est que la liste des types des paramètres formels doit être différente. Ce mécanisme est appelé surcharge de méthode. Il n'y a aucune contrainte sur les différents modificateurs ou sur la valeur de retour et on peut également appliquer la surcharge aux constructeurs.
 
 ## Redefinition de méthode
-La redéfinition sont des méthodes de sous classe qui ont les mêmes noms que les méthodes déclarées dans une classe mère. L'appel de super() dans une méthode redéfini fait réference à la méthode de la classe mère est peut être redéfini comme dans l'exemple du contructeur.
+La redéfinition sont des méthodes de sous classe qui ont les mêmes noms que les méthodes déclarées dans une classe mère. L'appel de super() dans une méthode fait réference à une méthode de la classe mère est peut être redéfini comme dans l'exemple du contructeur.
 
 ## Création de la méthode main
 

@@ -6,7 +6,7 @@ public class TestPeople {
 		People franck = new People("Franck", 40);
 		People tony = new People("Tony", 46);
 		
-		System.out.println(People.nombreDePersonne);
+		System.out.println((int)People.nombreDePersonne);
 		
 
 	}
