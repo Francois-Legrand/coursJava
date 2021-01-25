@@ -185,7 +185,7 @@ Exemple:
 		}
 		
 ## Les interfaces
-Une interface dans le langage de programmation Java est un type abstrait qui est utilisé pour spécifier un comportement que les classes doivent implémenter. Une interface est une collection de méthodes qui n'ont pas de corps, elle sera aussi composer d'atributs static ou final. Toutes les classes voulant implementer l'interface devront respecter le contrat en implementant toutes les méthodes de l'interface.
+Une interface dans le langage de programmation Java est un type abstrait qui est utilisé pour spécifier un comportement que les classes doivent implémenter. Une interface est une collection de méthodes qui n'ont pas de corps, elle sera aussi composer d'attributs static ou final. Toutes les classes voulant implementer l'interface devront respecter le contrat en implementant toutes les méthodes de l'interface.
 Exemple:
 
 		public interface People {
