@@ -156,6 +156,7 @@ Exemple:
 Le mot polymorphisme exprime litteralement "plusieurs" "formes" car en effet la notion de polymorphisme en Java est la capacité d'un objet à prendre plusieurs formes.
 La concrétisation de son effet prend forme dans une classe dit "abstraite" qui de son nom signifie l'abstaction de détails afin quelle soit "plus tard" redéfini plus pécisemment.
 Exemple:
+
 		public abstract class People {
 			final int bras = 2;
 			final int jambe = 2;
