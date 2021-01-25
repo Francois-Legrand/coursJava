@@ -152,4 +152,11 @@ Exemple:
 		
 
 		}
+## Notion de polymorphisme
+Le mot polymorphisme exprime litteralement "plusieurs" "formes" car en effet la notion de polymorphisme en Java est la capacité d'un objet à prendre plusieurs formes.
+Une autre définition conciste à dire le polymorphisme c'est le fait de referencer une classe fille avec toutes les réference d'une classe mère. Exemple:
+
+
+
+
 
